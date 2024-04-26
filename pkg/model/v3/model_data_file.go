@@ -17,7 +17,7 @@ type DataFile struct {
 	UserIdType           UserIdType    `json:"user_id_type,omitempty"`
 	OperationType        OperationType `json:"operation_type,omitempty"`
 	OpenAppId            *string       `json:"open_app_id,omitempty"`
-	ProcessStatus        *int64        `json:"process_status,omitempty"`
+	ProcessStatus        *string        `json:"process_status,omitempty"`
 	ProcessCode          *int64        `json:"process_code,omitempty"`
 	ErrorMessage         *string       `json:"error_message,omitempty"`
 	LineCount            *int64        `json:"line_count,omitempty"`
