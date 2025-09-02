@@ -1,4 +1,4 @@
-module github.com/tencentad/marketing-api-go-sdk
+module github.com/ev5an2/marketing-api-go-sdk
 
 go 1.13
 
